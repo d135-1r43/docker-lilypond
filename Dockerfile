@@ -7,4 +7,4 @@ ENV LANG en_US.utf8
 ENV DEBIAN_FRONTEND noninteractive
 
 
-RUN apt-get update && apt-get -y install lilypond
+RUN apt-get update && apt-get -y install lilypond curl
