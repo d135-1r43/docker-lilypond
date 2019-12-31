@@ -8,3 +8,4 @@ https://hub.docker.com/repository/docker/d1351r43/lilypond
 
 * latest lilypond
 * latest curl
+* latest git

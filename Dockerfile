@@ -6,4 +6,4 @@ RUN apt-get update && apt-get install -y locales && rm -rf /var/lib/apt/lists/* 
 ENV LANG en_US.utf8
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update && apt-get -y install lilypond curl
+RUN apt-get update && apt-get -y install lilypond curl git
