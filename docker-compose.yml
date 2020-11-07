@@ -1,6 +1,8 @@
 version: "3.8"
 services:
   lilypond:
+    environment:
+      - LYEDITOR="code --goto %(file)s:%(line)s:%(column)s"
     image: d1351r43/lilypond:latest
     build:
       context: .
